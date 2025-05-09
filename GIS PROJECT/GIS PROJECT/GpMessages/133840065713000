@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Thursday, April 10, 2025 6:29:18 PM</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GIS PROJECT\LULC_Calulator.pyt", line 110, in execute
+﻿    class_values = [int(x.strip()) for x in class_values_str.split(',')]
+﻿                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GIS PROJECT\LULC_Calulator.pyt", line 110, in &lt;listcomp&gt;
+﻿    class_values = [int(x.strip()) for x in class_values_str.split(',')]
+﻿                    ^^^^^^^^^^^^^^
+﻿ValueError: invalid literal for int() with base 10: ''
+</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Thursday, April 10, 2025 6:29:18 PM (Elapsed Time: 0.21 seconds)</msg></messages>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Thursday, April 10, 2025 6:30:05 PM</msg><msg code="0" type="0">Projecting raster to selected coordinate system...</msg><msg code="0" type="0">Calculating area statistics by class...</msg><msg code="0" type="0">✅ Area stats saved to: D:\LSU DOCUMENT\2025 SPRING SEMESTER\Koka.csv</msg><msg code="0" type="0">Converting projected raster to polygon...</msg><msg code="0" type="0">✅ Initial vector shapefile saved to: D:\LSU DOCUMENT\2025 SPRING SEMESTER\Koka.shp</msg><msg code="0" type="0">Dissolving polygons by class value...</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GIS PROJECT\LULC_Calulator.pyt", line 160, in execute
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 11888, in Dissolve
+﻿    raise e
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 11871, in Dissolve
+﻿    gp.Dissolve_management(
+﻿  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 532, in &lt;lambda&gt;
+﻿    return lambda *args: val(*gp_fixargs(args, True))
+﻿                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿arcgisscripting.ExecuteError: ERROR 160196: Invalid Topology
+Failed to execute (Dissolve).
+
+</msg><msg code="0" type="200">Canceled function</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Thursday, April 10, 2025 7:35:38 PM (Elapsed Time: 1 hours 5 minutes 33 seconds)</msg></messages>

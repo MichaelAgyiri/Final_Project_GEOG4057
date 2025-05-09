@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Thursday, April 10, 2025 5:33:12 PM</msg><msg code="0" type="0">Defining projection for input raster...</msg><msg code="0" type="0">Calculating areas...</msg><msg code="1" type="100">﻿Traceback (most recent call last):
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GIS PROJECT\LULC_Calulator.pyt", line 130, in execute
+﻿    df.to_csv(csv_output, index=False)
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GISPROJECT\Lib\site-packages\pandas\core\generic.py", line 3772, in to_csv
+﻿    return DataFrameRenderer(formatter).to_csv(
+﻿           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GISPROJECT\Lib\site-packages\pandas\io\formats\format.py", line 1186, in to_csv
+﻿    csv_formatter.save()
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GISPROJECT\Lib\site-packages\pandas\io\formats\csvs.py", line 240, in save
+﻿    with get_handle(
+﻿         ^^^^^^^^^^^
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GISPROJECT\Lib\site-packages\pandas\io\common.py", line 737, in get_handle
+﻿    check_parent_directory(str(handle))
+﻿  File "D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GISPROJECT\Lib\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+﻿    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+﻿OSError: Cannot save file into a non-existent directory: 'D:\LSU DOCUMENT\2025 SPRING SEMESTER\GIS Programming\GIS PROJECT\GIS PROJECT\LULC_2020_Tool1'
+</msg><msg code="-2147467259" type="100">Failed to execute (Tool).</msg><msg code="0" type="3">Failed at Thursday, April 10, 2025 5:33:13 PM (Elapsed Time: 0.82 seconds)</msg></messages>
